@@ -1,0 +1,49 @@
+.categories{
+    padding:70px 60px;
+    background:#ffffff;
+}
+
+.categories h2{
+    text-align:center;
+    color:#0B3D91;
+    margin-bottom:40px;
+    font-size:40px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+    color:#0B3D91;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#555;
+    margin-bottom:20px;
+    line-height:1.5;
+}
+
+.card button{
+    background:#0B3D91;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.card button:hover{
+    background:#072d73;
+}
