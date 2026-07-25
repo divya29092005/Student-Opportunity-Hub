@@ -1,25 +1,37 @@
-import "./../styles/Hero.css";
+import "../styles/Hero.css";
 import heroImage from "../assets/hero.png";
 
 function Hero() {
   return (
     <section className="hero">
 
-      <div className="hero-content">
+      <div className="hero-left">
 
-        <h1>Discover Every Student Opportunity in One Place</h1>
+        <span className="badge">🚀 Your Career Starts Here</span>
+
+        <h1>
+          Discover the Best Student Opportunities
+        </h1>
 
         <p>
-          Explore scholarships, internships, hackathons,
-          government schemes, certifications and skill
-          development programs specially curated for students.
+          Find scholarships, internships, government schemes,
+          hackathons, certifications, and skill development
+          programs—all in one place.
         </p>
 
-        <button>Explore Opportunities</button>
+        <div className="hero-buttons">
+          <button className="primary-btn">
+            Explore Opportunities
+          </button>
+
+          <button className="secondary-btn">
+            Learn More
+          </button>
+        </div>
 
       </div>
 
-      <div className="hero-image">
+      <div className="hero-right">
         <img src={heroImage} alt="Student" />
       </div>
 

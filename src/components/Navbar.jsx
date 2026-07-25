@@ -4,7 +4,10 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2>Student Opportunity Hub</h2>
+
+      <div className="logo">
+        <h2>Student Opportunity Hub</h2>
+      </div>
 
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
@@ -12,6 +15,7 @@ function Navbar() {
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
+
     </nav>
   );
 }
